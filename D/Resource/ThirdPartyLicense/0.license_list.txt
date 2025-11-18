@@ -1,0 +1,54 @@
+* License for third-party libraries used in XDL
+================================================
+
+* List
+----------------------------------------------------
+ 1. GDAL 3.11.3					MIT License (A few portions of GDAL is under slightly different terms.)
+ 2. ALGLIB 1.2					3-clause BSD (cf. AGLLIB Free Edition v.2.0 or higher uses GPL.)
+ 3. Geodesic area (GeographicLib)		X11/MIT License
+ 4. GEOS 3.12.1					LGPL2.1 license. refer to "geos-LICENSE.TXT"
+ 5. HDF5(no SZIP) 1.14.4			refer to "hdf5-LICENSE.TXT" and "hdf5_COPYING_LBNL_HDF5.TXT"
+ 6. JPEG-6b					refer to "jpeg-LICENSE.TXT"
+ 7. LERC 4.0.0					Apache License - 2.0. refer to "LERC_LICENSE.TXT"
+ 8. lib3ds					LGPL v2.1. refer to "lib3ds_LICENSE.TXT"
+ 9. libcurl 8.10.1				curl License (inspired by MIT/X, but not identical). refer to "curl-LICENSE.TXT"
+10. libexpat 2.6.2				MIT license. refer to "libexpat-LICENSE.TXT"
+11. libpng 1.6.50				refer to "libpng-LICENSE.TXT"
+12. libtiff 4.7.0				refer to "libtiff_LICENSE.TXT"
+13. MRGS					No license applied
+14. Open Asset Import Library (assimp) 5.4.1	3-clause BSD. refer to "assimp_LICENSE.TXT"
+15. PROJ 9.5.0					MIT open source license. refer to "proj-LICENSE.TXT"
+16. SOFA release 2021-01-25			refer to "sofa_LICENSE.TXT"
+17. SQLite 3.46.1				Public domain. refer to "sqlite_LICENSE.TXT"
+18. zlib 1.3.1					refer to "zlib_LICENSE.TXT"
+19. fFmpeg-7.1.1			    LGPL v2.1 (lgpl-shared). refer to "ffmpeg_LICENSE.TXT"
+20. libsquish 1.11				MIT license
+21. 7za.exe 24.09				refer to "7zip_LICENSE.txt"
+
+* Drivers
+----------
+
+- [CC] GDAL
+- [IO] GDAL, HDF5, KAKADU
+- [Model] lib3ds, assimp
+- [VD] FFmpeg
+
+
+** GDAL Dependency
+---------------------------------------------------
+1. GDAL
+	1.1 PROJ
+		1.1.1 SQLite
+		1.1.2 libtiff
+			1.1.2.1 zlib
+			1.1.2.2 LERC 
+		1.1.3 libcurl
+		
+	1.2 GEOS
+	1.3 libcurl
+		1.3.1 zlib
+	1.4 libexpat
+	1.5 HDF5(no SZIP) 
+	1.6 SQLite
+	1.7 KAKADU
+
