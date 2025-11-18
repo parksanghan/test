@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<XMilmap Version="3.0">
+	<Global>
+		<FDB>
+			<BoundGeo>	<!-- FDB 기본 경계 영역을 알려주는 태그. 이 태그는 영역 정보를 주고자 함 -->
+				<Min>124.0, 32.0</Min>
+				<Max>132.0, 44.0</Max>
+			</BoundGeo>
+			<MapStyleFile>c:\Pixoneer\Map\FDB\GSS_STYLE.xml</MapStyleFile>
+			<MapSymbolPath>c:\Pixoneer\Map\FDB\GSSSymbol</MapSymbolPath>
+			<MapLayerDefinitions>
+				<!-- 육도 대축척 : 2.5만, 5만, 10만 -->
+				<MapLayerDefinition Keyword="LARGE_SCALE">c:\Pixoneer\Map\FDB\GSS_GROUND_LARGE_SCALE_LAYER.xml</MapLayerDefinition>
+				<!-- 육도 소축척 : 25만, 50만, 100만 -->
+				<MapLayerDefinition Keyword="SMALL_SCALE">c:\Pixoneer\Map\FDB\GSS_GROUND_SMALL_SCALE_LAYER.xml</MapLayerDefinition>
+				<!-- 공도 합동작전지도 : 25만 -->
+				<MapLayerDefinition Keyword="AIR_JOGA">c:\Pixoneer\Map\FDB\GSS_AIR_JOGA_LAYER.xml</MapLayerDefinition>
+				<!-- 공도 항공도 : 50만, 100만, 200만 -->
+				<MapLayerDefinition Keyword="AIR_NPC">c:\Pixoneer\Map\FDB\GSS_AIR_NPC_LAYER.xml</MapLayerDefinition>
+				<!-- 해도 : KR1, KR2, KR3, KR4, KR5 -->
+				<MapLayerDefinition Keyword="NAVY">c:\Pixoneer\Map\FDB\GSS_NAVY_LAYER.xml</MapLayerDefinition>
+			</MapLayerDefinitions>
+			<FACCVisibility>
+				<!--Show 태그 안에 ,(comma) 구분자로 하여 도시하고자 하는 코드값 입력. 없는 경우 모든 코드 도시 -->
+				<Show> </Show>
+				<!--Hide 태그 안에 ,(comma) 구분자로 하여 도시하고자 하는 코드값 입력. 모든 태그를 도시하고 hide에 있는 코드만 도시하지 않는 형태 -->
+				<Hide></Hide>	<!-- LBE015 -->
+			</FACCVisibility>
+		</FDB>
+	</Global>
+    <Scales>
+        <Scale Type="PBI" Name="WORLD PBI" Level="0">
+            <DataSource>c:\Pixoneer\XDL2.0\Map\world.pbi</DataSource>
+        </Scale>
+        <Scale Type="RPF" Name="CADRG 1M">
+            <DataSource>c:\Pixoneer\Map\CADRG1M\RPF\A.toc</DataSource>
+        </Scale>
+        <Scale Type="RPF" Name="CADRG 500K">
+            <DataSource>c:\Pixoneer\Map\CADRG500k\RPF\A.toc</DataSource>
+        </Scale>
+        <Scale Type="RPF" Name="CADRG 250K">
+            <DataSource>c:\Pixoneer\Map\CADRG250k\RPF\A.toc</DataSource>
+        </Scale>
+       	<Scale Type="FDB" Name="FDB 100K" CADRGScale="100K" CellDepth="1" GeoNamePath="c:\Pixoneer\Map\FDB\G100K\Geoname_G100K\" RoadNamePath="c:\Pixoneer\Map\FDB\G100K\ROADNAME_G100K\" MapLayerDefinition="LARGE_SCALE">
+			<DataSource>c:\Pixoneer\Map\FDB\G100K\100K\</DataSource>
+        </Scale>
+		<Scale Type="PBP" Name="korea" Color="1.0,0.0,0.0" FontSize="50" MinLevel="0" MaxLevel="3">
+			<DataSource>c:\Pixoneer\XDL3.0\Map\korea.pbp</DataSource>
+		</Scale>
+		<Scale Type="PBP" Name="metropolis" Color="0.8,0.8,0.0" FontSize="25" MinLevel="3" MaxLevel="5">
+			<DataSource>c:\Pixoneer\XDL3.0\Map\metropolis.pbp</DataSource>
+		</Scale>
+		<Scale Type="PBP" Name="city" Color="0.0,0.9,0.9" FontSize="20" MinLevel="5" MaxLevel="7">
+			<DataSource>c:\Pixoneer\XDL3.0\Map\city.pbp</DataSource>
+		</Scale>
+    </Scales>	
+</XMilmap>

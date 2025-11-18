@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XDL Version="2.0">
+    <Global>
+        <GraphicMode>OpenGL</GraphicMode>
+        <MaxTileCount>1000</MaxTileCount>
+        <BlueMarble>c:\Pixoneer\XDL3.0\resource\world_topo_bathy_200406_blend_3x1024x512.jpg</BlueMarble>
+        <Planet2DProjection>WEBMERCATOR</Planet2DProjection>
+    </Global>
+    <PBI DefaultDataset="0">
+        <Group ID="0" Name="WORLD">
+            <Source Type="Local">c:\Pixoneer\XDL3.0\Map\world.pbi</Source>
+        </Group>
+    </PBI>
+    <PBP DefaultDataset="1+2+3">
+        <Group ID="1" Name="korea" Color="1.0,0.0,0.0" FontSize="50" MinLevel="0" MaxLevel="13">
+            <Source Type="Local">c:\Pixoneer\XDL3.0\Resource\PBP\korea.pbp</Source>
+        </Group>
+        <Group ID="2" Name="SouthKorea_metropolis" Color="0.8,0.8,0.0" FontSize="25" MinLevel="3" MaxLevel="8">
+            <Source Type="Local">c:\Pixoneer\XDL3.0\Resource\PBP\metropolis.pbp</Source>
+        </Group>
+        <Group ID="3" Name="city" Color="0.0,0.9,0.9" FontSize="20" MinLevel="5" MaxLevel="9">
+            <Source Type="Local">c:\Pixoneer\XDL3.0\Resource\PBP\korea_municipality.pbp</Source>
+        </Group>
+    </PBP>
+</XDL>
