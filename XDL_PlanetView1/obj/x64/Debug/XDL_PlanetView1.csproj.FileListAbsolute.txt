@@ -1,0 +1,17 @@
+C:\Pixoneer\XDL3.0\bin\XDL_PlanetView1.exe.config
+C:\Pixoneer\XDL3.0\bin\XDL_PlanetView1.exe
+C:\Pixoneer\XDL3.0\bin\XDL_PlanetView1.pdb
+C:\Users\snagh\OneDrive\Desktop\XDL_PlanetView1\obj\x64\Debug\XDL_PlanetView1.csproj.AssemblyReference.cache
+C:\Users\snagh\OneDrive\Desktop\XDL_PlanetView1\obj\x64\Debug\XDL_PlanetView1.exe.config
+C:\Users\snagh\OneDrive\Desktop\XDL_PlanetView1\obj\x64\Debug\MainWindow.g.cs
+C:\Users\snagh\OneDrive\Desktop\XDL_PlanetView1\obj\x64\Debug\App.g.cs
+C:\Users\snagh\OneDrive\Desktop\XDL_PlanetView1\obj\x64\Debug\XDL_PlanetView1_MarkupCompile.cache
+C:\Users\snagh\OneDrive\Desktop\XDL_PlanetView1\obj\x64\Debug\XDL_PlanetView1_MarkupCompile.lref
+C:\Users\snagh\OneDrive\Desktop\XDL_PlanetView1\obj\x64\Debug\MainWindow.baml
+C:\Users\snagh\OneDrive\Desktop\XDL_PlanetView1\obj\x64\Debug\XDL_PlanetView1.g.resources
+C:\Users\snagh\OneDrive\Desktop\XDL_PlanetView1\obj\x64\Debug\XDL_PlanetView1.Properties.Resources.resources
+C:\Users\snagh\OneDrive\Desktop\XDL_PlanetView1\obj\x64\Debug\XDL_PlanetView1.csproj.GenerateResource.cache
+C:\Users\snagh\OneDrive\Desktop\XDL_PlanetView1\obj\x64\Debug\XDL_PlanetView1.csproj.CoreCompileInputs.cache
+C:\Users\snagh\OneDrive\Desktop\XDL_PlanetView1\obj\x64\Debug\XDL_Plan.FDC95734.Up2Date
+C:\Users\snagh\OneDrive\Desktop\XDL_PlanetView1\obj\x64\Debug\XDL_PlanetView1.exe
+C:\Users\snagh\OneDrive\Desktop\XDL_PlanetView1\obj\x64\Debug\XDL_PlanetView1.pdb
