@@ -1,0 +1,22 @@
+C:\Pixoneer\XDL3.0\bin\NXDLPlanetView.exe.config
+C:\Pixoneer\XDL3.0\bin\NXDLPlanetView.exe
+C:\Pixoneer\XDL3.0\bin\NXDLPlanetView.pdb
+C:\Csharp.NET\.NET C# Language Network\NXDLPlanetView\obj\x64\Debug\NXDLPlanetView.csproj.AssemblyReference.cache
+C:\Csharp.NET\.NET C# Language Network\NXDLPlanetView\obj\x64\Debug\MainWindow.g.cs
+C:\Csharp.NET\.NET C# Language Network\NXDLPlanetView\obj\x64\Debug\App.g.cs
+C:\Csharp.NET\.NET C# Language Network\NXDLPlanetView\obj\x64\Debug\NXDLPlanetView_MarkupCompile.cache
+C:\Csharp.NET\.NET C# Language Network\NXDLPlanetView\obj\x64\Debug\NXDLPlanetView_MarkupCompile.lref
+C:\Csharp.NET\.NET C# Language Network\NXDLPlanetView\obj\x64\Debug\MainWindow.baml
+C:\Csharp.NET\.NET C# Language Network\NXDLPlanetView\obj\x64\Debug\NXDLPlanetView.g.resources
+C:\Csharp.NET\.NET C# Language Network\NXDLPlanetView\obj\x64\Debug\NXDLPlanetView.Properties.Resources.resources
+C:\Csharp.NET\.NET C# Language Network\NXDLPlanetView\obj\x64\Debug\NXDLPlanetView.csproj.GenerateResource.cache
+C:\Csharp.NET\.NET C# Language Network\NXDLPlanetView\obj\x64\Debug\NXDLPlanetView.csproj.CoreCompileInputs.cache
+C:\Csharp.NET\.NET C# Language Network\NXDLPlanetView\obj\x64\Debug\NXDLPlan.201A1F6E.Up2Date
+C:\Csharp.NET\.NET C# Language Network\NXDLPlanetView\obj\x64\Debug\NXDLPlanetView.exe
+C:\Csharp.NET\.NET C# Language Network\NXDLPlanetView\obj\x64\Debug\NXDLPlanetView.pdb
+C:\Csharp.NET\.NET C# Language Network\NXDLPlanetView\obj\x64\Debug\NXDLPlanetView.exe.config
+C:\Csharp.NET\.NET C# Language Network\NXDLPlanetView\obj\x64\Debug\Window1.g.cs
+C:\Csharp.NET\.NET C# Language Network\NXDLPlanetView\obj\x64\Debug\Window1.baml
+C:\Csharp.NET\.NET C# Language Network\NXDLPlanetView\obj\x64\Debug\Window2.g.cs
+C:\Csharp.NET\.NET C# Language Network\NXDLPlanetView\obj\x64\Debug\Window2.baml
+C:\Csharp.NET\.NET C# Language Network\NXDLPlanetView\obj\x64\Debug\XDL_PlanetView2.Form1.resources
